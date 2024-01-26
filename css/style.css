@@ -106,12 +106,15 @@ a {
     width: fit-content;
 }
 
-.search-bar-block label {
+.search-bar-block button {
     color: var(--main-bg-color);
+    font-size: 0.9em;
     font-weight: bold;
     background-color: var(--main-color);
-    padding: 15px;
+    padding: 10px 15px;
     border-radius: 0 15px 15px 0;
+    border: none;
+    cursor: pointer;
 }
 
 .search-bar-block input {
